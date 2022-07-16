@@ -34,8 +34,8 @@ jobs:
         run: unzip awscliv2.zip
 
       # Runs a single command using the runners shell
-      # - name: Run UNZIP
-      #   run: ./aws/install 
+      - name: Run Install
+        run: ./aws/install 
 
       # Runs a single command using the runners shell
       # - name: Run AWS 
